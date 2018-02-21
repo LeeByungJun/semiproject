@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+  <meta charset="UTF-8">
+  <title>testForm.html</title>
+ </head>
+ <body>
+	<h1>새로 추가 된 html5 폼 연습 페이지</h1>
+	<form method="post" action="">
+		이메일  &nbsp;&nbsp;<input type="email" name="email"><p>
+		<label for="url">웹 주소 : </label>
+		<input type="url" name="url" id="url"><p/>
+		<label>수량 : <input type="number" min="2" max="30" step="2" value="10"></label><p/>
+		<input type="submit" value="전송하기">
+	</form>
+	<form method="post" action="">
+		<fieldset id="oh">
+			<legend>주문 내용</legend>
+			<ol>
+				<li>
+					<label for="prod">상품명<label>
+					<input id="prod" type="text" size="25">
+				</li>
+				<li>
+					<label for=“num”>주문개수</label> 
+					<input id="num" type="number" min="1" max="10" value="1"> 
+				</li>
+				<li>
+					<label for=“grade”>등급</label> 
+					<input id="grade" type="range" min="1" max="10" value="5" step="1"> 
+				</li>
+				<li>
+					<label for=“arrive_date”>도착날짜</label> 
+					<input id="arrive_date" type="date"> 
+				</li>
+				<li>
+					<label for=“order_color”>주문색상</label> 
+					<input id="order_color" type="color"> 
+				</li>
+				<li> <label for="prodid">색상</label> 
+				<input id="prodid" type="text" list="mycolor" autofocus required> 
+					<datalist id="mycolor"> 
+						<option value="black" label="검정색"> 
+						<option value="white" label="흰색"> 
+						<option value="skyblue" label="하늘색"> 
+					</datalist> 
+				</li> 
+			</ol>
+		</fieldset>
+		<input type="submit" value="등록하기">
+	</form>
+ </body>
+</html>

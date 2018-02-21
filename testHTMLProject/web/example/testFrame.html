@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Author" content="이병준">
+  <meta name="Keywords" content="html,frame,frameset,example">
+  <meta name="Description" content="html frame 관련 태그 연습용 페이지">
+  <title>testFrame.html</title>
+ </head>
+ <!-- frameset 태그를 사용하는 문서에서는 body를 사용하지 않는다. -->
+ <!-- <body>
+  <h1>frame 관련 태그 연습</h1>
+ </body> -->
+ <frameset rows="200,*"> <!-- 각 프레임의 크기를 rows에 넣어줌 *: 남은 크기 전부 차지하게 해라-->
+	<frame src="first.html" name="top"> <!-- 윗 프레임 -->
+	<frameset cols="200,*">
+		<frame src="second.html" name="left">
+		<frame src="http://www.daum.net" name="right">
+	</frameset>
+ </frameset>
+</html>

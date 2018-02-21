@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+nav li a {
+	color:navy;
+	font-weight:900;
+ 	text-shadow:1px 1px 2px yellow;
+}

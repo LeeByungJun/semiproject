@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html><!-- 웹 문서의 시작을 뜻하는 태그 -->
+<head>
+<meta charset="UTF-8">
+<title>testh</title>
+</head>
+<body>
+html 연습용 프로젝트 시작 페이지<br>
+<font size="1" color="#6bb8f1" face="궁서체">FONT 태그 테스트</font><!-- face : 글꼴--><br>
+<font size="2" color="#6bb8f1" face="바탕체">FONT 태그 테스트</font><!-- face : 글꼴--><br>
+<font size="3" color=green face="굴림체">FONT 태그 테스트</font><!-- face : 글꼴--><br>
+<font size="4" color=blue face="궁서체">FONT 태그 테스트</font><!-- face : 글꼴--><br>
+<font size="5" color=red face="궁서체">FONT 태그 테스트</font><!-- face : 글꼴--><br>
+<font size="6" color="#6bb8f1" face="궁서체">FONT 태그 테스트</font><!-- face : 글꼴--><br>
+<font size="7" color="#6bb8f1" face="궁서체">FONT 태그 테스트</font><!-- face : 글꼴-->
+</body>
+</html><!-- 웹 문서의 끝을 뜻하는 태그 -->

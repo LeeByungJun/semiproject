@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+  <meta charset="UTF-8">
+  <title>testIFrame.html</title>
+  <style type="text/css">
+	#if {
+		display: none;
+		position: absolute;
+		left: 200px;
+		top: 50px;
+	}
+  </style>
+  <script type="text/javascript">
+	var flag = false;
+	function show(){
+		if(flag == false){
+			document.getElementById("if").style.display = "block";
+			flag = true;
+		}else{
+			document.getElementById("if").style.display = "none";
+			flag = false;
+		}
+	}
+  </script>
+ </head>
+ <body>
+	<h1>iframe 태그 테스트</h1>
+	<p>
+		iframe은 플로팅 프레임이라고 하며, 기존의 문서 위에 나타나는 작은 화면의 역할을 수행하기
+		위해 사용할 수 있는 태그이다.
+	</p>
+	<button onclick="show();">Click Me!</button>
+	<iframe id="if" src="testImg.html" width="300" height="300"></iframe>
+ </body>
+</html>

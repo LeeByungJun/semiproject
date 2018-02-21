@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+  <meta charset="UTF-8">
+  <title>productform.html</title>
+  <link href="css/main.css" rel="stylesheet" type="text/css">
+  <style type="text/css">
+	input {
+		margin-bottom:15px;
+	}
+  </style>
+ </head>
+ <body>
+	<form method="post" action="">
+		<fieldset>
+			<legend>납품자정보</legend>
+			<ol>
+				<li>
+					납품자명:&nbsp;&nbsp;<input type="text" id="name" placeholder="name" autofocus>
+				</li>
+				<li>
+					email:&nbsp;&nbsp;<input type="email" id="email" size="24" placeholder="answs@naver.com">
+				</li>
+				<li>
+					홈페이지:&nbsp;&nbsp;<input type="url" id="home" placeholder="http://">
+				</li>
+			</ol>
+		</fieldset><p/>
+		<fieldset>
+			<legend>납품정보</legend>
+			<ul>
+				<li>
+					상품명:&nbsp;&nbsp;<input type="text" id="pname">
+				</li>
+				<li>
+					납품수량:&nbsp;&nbsp;<input type="number" id="count" min="100" max="200" placeholder="최소100">
+				</li>
+				<li>
+					납품등급:&nbsp;&nbsp;<input type="range" id="grade" min="1" max="5">
+				</li>
+				<li>
+					기타사항:&nbsp;&nbsp;<Textarea name="comment" id="comments" rows="3" cols="25">
+					</textarea>
+				</li>
+			<ul>
+		</fieldset><p/>
+		<input type="submit" value="send message">
+	</form>
+ </body>
+</html>

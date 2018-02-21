@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>회원가입</title>
+  <style type="text/css">
+	#sub {
+		background-color:#66ff00;
+	}
+  </style>
+ </head>
+ <body>
+	<div id="img" class="" style="margin-left:350px; margin-top:50px; margin-bottom:50px;">
+		<img src="images/naver.jpg" width="250" height="70" border="0" alt="">
+	</div>
+	<div id="main" class="" style="margin-left:350px;">
+		<form method="post" action="index.html">
+			<input type="text" name="userid" placeholder="아이디">&nbsp;&nbsp;&nbsp;@naver.com<p>
+			<input type="password" name="userpwd" size="21" placeholder="비밀번호">
+			   <img src="images/lock1.jpg" width="40" height="35" border="0" alt=""><p>
+			<input type="password" name="userpwd2" size="21" placeholder="비밀번호 재확인">
+			    <img src="images/lock2.jpg" width="40" height="35" border="0" alt=""><p>
+			<input type="text" name="username" placeholder="이름"><p>
+			<select name="list1">
+				<option selected>성별</option>
+				<option>남자</option>
+				<option>여자</option>
+			</select><p>
+			생일&nbsp;&nbsp;<input type="date" name="year" placeholder="년(4자)" size="4">&nbsp;&nbsp;
+			<select name="month">
+				<option selected>월</option>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+				<option>6</option>
+				<option>7</option>
+				<option>8</option>
+				<option>9</option>
+				<option>10</option>
+				<option>11</option>
+				<option>12</option>
+			</select>&nbsp;
+			<input type="date" name="day" placeholder="일" size="6"><p>
+			<input type="text" name="useremail" placeholder="본인확인 이메일(선택)" size="25"><p>
+			+82&nbsp;&nbsp;<input type="text" name="userphone" placeholder="휴대전화번호" size="13">
+			<input type="button" value="인증" onclick=""><p>
+			<input type="text" name="confirmInfo" placeholder="인증번호" size="19">
+			<input type="button" value="확인" onclick=""><p>
+			<br>
+			<input type="submit" value="가입하기" id="sub">
+		</form>
+	</div>
+ </body>
+</html>
