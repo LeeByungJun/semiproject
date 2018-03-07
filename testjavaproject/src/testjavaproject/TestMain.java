@@ -20,5 +20,7 @@ public class TestMain {
         System.out.println("한진수정 ");
         
         System.out.println("욱재수정");
+        System.out.println("욱재수정");
+        
 	}
 }
