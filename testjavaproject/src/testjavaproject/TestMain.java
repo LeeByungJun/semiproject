@@ -12,7 +12,8 @@ public class TestMain {
         System.out.println("하이 방가방가 ");
         for(int i=0;i<100;i++) {
         	System.out.println("홍동국입니다.");
+        	
+        	System.out.println("dfdfdfdfdf");
         }
 	}
-
 }
