@@ -9,7 +9,10 @@ public class TestMain {
 		System.out.println("한윤희");
 		System.out.println("병준 다시 한번 수정");
         System.out.println("수정 03.07");	
- 	
+        System.out.println("하이 방가방가 ");
+        for(int i=0;i<100;i++) {
+        	System.out.println("홍동국입니다.");
+        }
 	}
 
 }
