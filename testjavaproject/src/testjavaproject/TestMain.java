@@ -13,7 +13,8 @@ public class TestMain {
         for(int i=0;i<100;i++) {
         	System.out.println("홍동국입니다.");
         	
-        	System.out.println("dfdfdfdfdf");
+        	System.out.println("dfdfdfdfdf1111");
+        	
         }
 	}
 }
