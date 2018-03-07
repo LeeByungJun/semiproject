@@ -1,26 +1,26 @@
 package testjavaproject;
 
 public class TestMain {
-
+	public static String master = "이병준";
+	public static String teammember1 = "한윤희";
+	public static String teammember2 = "김한진";
+	public static String teammember3 = "이아람";
+	public static String teammember4 = "홍동국";
+	public static String teammember5 = "정욱재";
+	
+	public static void startJoin() {
+		System.out.println(master+"님 께서 로그인 하셨습니다.");
+		System.out.println(teammember1+"님 께서 로그인 하셨습니다.");
+		System.out.println(teammember2+"님 께서 로그인 하셨습니다.");
+		System.out.println(teammember3+"님 께서 로그인 하셨습니다.");
+		System.out.println(teammember4+"님 께서 로그인 하셨습니다.");
+		System.out.println(teammember5+"님 께서 로그인 하셨습니다.");
+	}
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("수정전");
-		System.out.print("아아아아아아아");
-		System.out.println("한윤희");
-		System.out.println("병준 다시 한번 수정");
-        System.out.println("수정 03.07");	
-        System.out.println("하이 방가방가 ");
-        for(int i=0;i<100;i++) {
-        	System.out.println("홍동국입니다.");
-        	
-        	System.out.println("dfdfdfdfdf1111");
-        	
-        }
-        
-        System.out.println("한진수정 ");
-        
-        System.out.println("욱재수정");
-        System.out.println("욱재수정2");
-        
+
+		startJoin();
+		
 	}
 }
